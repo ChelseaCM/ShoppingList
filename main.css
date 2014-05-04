@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+background-color: #dadada;
+font-family: Tahoma;
+}
+#container {
+text-align: center;
+width: 55%;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+padding:15px;
+overflow: auto;
+}
+h1 {
+	font: 54px Georgia, serif;
+	letter-spacing: 2px;
+}
+h2{
+	font-size: 28px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+#listinput {
+	border: none;
+	padding: 13px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #fff;
+}
+button {
+	font-family: Tahoma, sans-serif;
+	background-color: #ffa724;
+	padding: 13px;
+	margin-left: -8px;
+	border: 1px solid #ffa724;
+	border-left-style: none;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+h3 {
+	font-size: 20px;
+	margin-top: 15px;
+}
+li {
+	height: 30px;
+	width: 375px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
+	padding-top:10px;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+li:hover {
+	background: #ffa724;
+}
+.checked {
+	background-color: #ffa724;
+	color: #fff;
+  	list-style: none;
+}
